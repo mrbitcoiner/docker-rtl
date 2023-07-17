@@ -10,10 +10,10 @@
   "nodes": [
     {
       "index": 1,
-      "lnNode": "CLN1",
+      "lnNode": "CLN",
       "lnImplementation": "CLN",
       "Authentication": {
-        "macaroonPath": "/app/data/certs/cln1"
+        "macaroonPath": "/app/data/certs/cln"
       },
       "Settings": {
         "userPersona": "OPERATOR",
@@ -22,7 +22,7 @@
         "logLevel": "INFO",
         "fiatConversion": false,
         "unannouncedChannels": false,
-        "lnServerUrl": "https://cln1:3002"
+        "lnServerUrl": "https://cln:3002"
       }
     }
   ]
