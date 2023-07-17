@@ -1,0 +1,29 @@
+{
+  "multiPass": "<password required for accessing RTL>",
+  "port": "3000",
+  "defaultNodeIndex": 1,
+  "SSO": {
+    "rtlSSO": 0,
+    "rtlCookiePath": "",
+    "logoutRedirectLink": ""
+  },
+  "nodes": [
+    {
+      "index": 1,
+      "lnNode": "CLN1",
+      "lnImplementation": "CLN",
+      "Authentication": {
+        "macaroonPath": "/app/data/certs/cln1"
+      },
+      "Settings": {
+        "userPersona": "OPERATOR",
+        "themeMode": "NIGHT",
+        "themeColor": "PURPLE",
+        "logLevel": "INFO",
+        "fiatConversion": false,
+        "unannouncedChannels": false,
+        "lnServerUrl": "https://cln1:3002"
+      }
+    }
+  ]
+}

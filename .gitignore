@@ -1,0 +1,5 @@
+containers/**/volume/data
+cln_rest_certs
+docker-compose.yml
+.env
+RTL-Config.json
